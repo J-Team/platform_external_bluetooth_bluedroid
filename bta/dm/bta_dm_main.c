@@ -106,6 +106,8 @@ const tBTA_DM_ACTION bta_dm_action[] =
     bta_dm_set_service_data,         /*BTA_DM_API_BLE_SERVICEDATA_EVT*/
     bta_dm_ble_send_conn_update,         /*BTA_DM_API_BLE_SEND_CONN_UPDATE_EVT*/
     bta_dm_ble_conn_params_change,             /*   BTA_DM_BLE_CONN_PARAMS_CHANGE_EVT */
+    bta_dm_ble_set_scan_rsp,       /* BTA_DM_API_BLE_SET_SCAN_RSP_EVT */
+    bta_dm_ble_broadcast,          /* BTA_DM_API_BLE_BROADCAST_EVT */
 #endif
 
 #if ( BTM_EIR_SERVER_INCLUDED == TRUE )&&( BTA_EIR_CANNED_UUID_LIST != TRUE )&&(BTA_EIR_SERVER_NUM_CUSTOM_UUID > 0)

@@ -801,3 +801,4 @@ void L2CA_is_conn_update_api_pending (BD_ADDR  rem_bda)
 }
 
 #endif /* (BLE_INCLUDED == TRUE) */
+

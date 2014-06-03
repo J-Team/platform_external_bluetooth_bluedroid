@@ -2350,4 +2350,3 @@ static void btu_ble_proc_ltk_req (UINT8 *p, UINT16 evt_len)
 ** End of BLE Events Handler
 ***********************************************/
 #endif /* BLE_INCLUDED */
-

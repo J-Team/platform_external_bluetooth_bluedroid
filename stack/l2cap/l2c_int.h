@@ -450,6 +450,12 @@ typedef struct t_l2c_linkcb
 #define UPD_SLAVE_UPDATED  5
     UINT8               upd_disabled;
 
+#define L2C_BLE_CONN_UPDATE_DISABLE 0x1  /* disable update connection parameters */
+#define L2C_BLE_NEW_CONN_PARAM      0x2  /* new connection parameter to be set */
+#define L2C_BLE_UPDATE_PENDING      0x4  /* waiting for connection update finished */
+#define L2C_BLE_NOT_DEFAULT_PARAM   0x8  /* not using default connection parameters */
+    UINT8               upd_status;
+
     UINT16              min_interval; /* parameters as requested by peripheral */
     UINT16              max_interval;
     UINT16              latency;
